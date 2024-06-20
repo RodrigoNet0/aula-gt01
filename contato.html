@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Geração tech</title>
+    <style>
+        body{
+            background-image: url("https://image.freepik.com/vetores-gratis/fundo-de-formularios-sobrepostos_23-2148658719.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1{
+            color: black;
+            font-size: 50px;
+            margin-top: 20px;
+        }
+        p{
+            color: black;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            padding: 20px 0px 20px 0px;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font: bold;
+            margin-top: 20px;
+        }
+        a:hover{
+            cursor: pointer;
+            color: rgb(102, 250, 218);
+        }
+        button{
+            cursor: pointer;
+            color: white;
+            width: 100px;
+            margin-top: 20px;
+            background-image: url("https://th.bing.com/th/id/OIP.tSOZ-kRT_ykkqoEXVEjuxgHaE7?rs=1&pid=ImgDetMain");
+        }
+        button:hover{
+            background-image: url("https://th.bing.com/th/id/OIP.tSOZ-kRT_ykkqoEXVEjuxgHaE7?rs=1&pid=ImgDetMain");
+            color: rgb(102, 250, 218);
+        }
+        form{
+            background-image: url("https://th.bing.com/th/id/R.18dbfe4c3db926733fc26a7ca16148ac?rik=84JmlprEVnlAxg&pid=ImgRaw&r=0");
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            border: 10px solid rgb(8, 181, 187);
+            padding: 20px;
+        }
+        label{
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <h1>Contato</h1>
+    <p>Se você precisar de ajuda com alguma coisa, entre em contato conosco.</p>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <button><a href="index.html">Voltar</a></button>
+</body>
+</html>
